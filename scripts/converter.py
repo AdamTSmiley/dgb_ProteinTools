@@ -42,9 +42,9 @@ if __name__ == "__main__":
         description="Convert a .cif (mmCIF) file to .pdb format.",
         epilog="""
 Examples:
-  python cif_to_pdb.py structure.cif
-  python cif_to_pdb.py structure.cif --output my_structure.pdb
-  python cif_to_pdb.py structure.cif --output ./pdbs/my_structure.pdb
+  python converter.py structure.cif
+  python converter.py structure.cif --output my_structure.pdb
+  python converter.py structure.cif --output ./pdbs/my_structure.pdb
         """,
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
